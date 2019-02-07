@@ -67,6 +67,7 @@ for i in range(len(X_test)):
          p *= normpdf(X_test[i, j], Mean_X_train[j], std_X_train[j])
      y_pred.append(p)
 
+#converting the probability to 0s and 1s depending on threshold value
 y_out = []
 for i in range(len(y_pred)):
     if y_pred[i] < 9.914460408105776e-21 :
