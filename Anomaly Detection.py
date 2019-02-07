@@ -6,7 +6,6 @@ Created on Mon Feb  4 13:25:04 2019
 """
 
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 import random
 dataset = pd.read_csv('creditcard.csv')
@@ -58,9 +57,9 @@ import math
 y_pred = []
 def norm(x, mean, std):
     variance = float(std)**2
-    deno = (2*math.pi*variance)**.5
+    denom = (2*math.pi*variance)**.5
     numer = math.exp(-(float(x)-float(mean))**2/(2*variance))
-    return num/denom
+    return numer/denom
   
 for i in range(len(X_test)):
      p = 1
