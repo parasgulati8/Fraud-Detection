@@ -64,7 +64,7 @@ def norm(x, mean, std):
 for i in range(len(X_test)):
      p = 1
      for j in range(len(Mean_X_train)):
-         p *= normpdf(X_test[i, j], Mean_X_train[j], std_X_train[j])
+         p *= norm(X_test[i, j], Mean_X_train[j], std_X_train[j])
      y_pred.append(p)
 
 #converting the probability to 0s and 1s depending on threshold value
