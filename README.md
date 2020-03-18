@@ -11,6 +11,8 @@ The expression for univariate Gaussian is given by :
 
 ![univariate gaussian](https://latex.codecogs.com/gif.latex?%24%24p%28x%3B%5Cmu%2C%20%5Csigma%5E2%29%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%5Cpi%5Csigma%5E2%7D%7Dexp%5Cleft%28-%5Cfrac%7B1%7D%7B2%5Csigma%5E2%7D%28x-%5Cmu%29%5E2%5Cright%29%24%24)
 
+```norm``` function in Anomaly Detection.py is defined to calculate the univariate Gaussian for any feature. 
+
 For multivariate Gaussian, univariate gaussian probabilities for all the features are calculated and multiplied together. This product is a multivariate gaussian distribution and can be expresses as :
 ![Multivariate Gaussian](https://latex.codecogs.com/gif.latex?%24%24p%28x%3B%5Cmu%2C%20%5CSigma%29%3D%20%5Cfrac%7B1%7D%7B%7B%282%5Cpi%29%5E%7Bn/2%7D%5Cleft%20%7C%20%5CSigma%20%5Cright%20%7C%5E%7B1/2%7D%7D%7Dexp%5Cleft%28-%5Cfrac%7B1%7D%7B2%7D%28x-%5Cmu%29%5ET%5CSigma%5E%7B-1%7D%28x-%5Cmu%29%5Cright%29%24%24)
 
