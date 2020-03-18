@@ -19,8 +19,8 @@ We use confusion matrix to measure the efficiency of the model. For a fraud dete
 <h2> Usage </h2>
 The code can be used for any data anomaly detection. You needs to modify the dimensions of dataset as per your dataset and use an appropriate value of threshold probability below which signifies the anomaly behaviour.
 <h2> References </h2>
-https://www.coursera.org/lecture/machine-learning/multivariate-gaussian-distribution-Cf8DF
 
+https://www.coursera.org/lecture/machine-learning/multivariate-gaussian-distribution-Cf8DF
 
 https://www.kaggle.com/mlg-ulb/creditcardfraud
 
