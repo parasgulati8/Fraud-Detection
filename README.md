@@ -21,6 +21,8 @@ The code can be used for any data anomaly detection. You needs to modify the dim
 <h2> References </h2>
 https://www.coursera.org/lecture/machine-learning/multivariate-gaussian-distribution-Cf8DF
 
-http://cs229.stanford.edu/section/gaussians.pdf
 
 https://www.kaggle.com/mlg-ulb/creditcardfraud
+
+http://cs229.stanford.edu/section/gaussians.pdf
+
